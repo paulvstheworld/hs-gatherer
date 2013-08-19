@@ -1,0 +1,26 @@
+/**
+ * @author <a href="mailto:paulvstheworld@gmail.com">Paul</a>
+ */
+
+canvas {
+  display:block;
+  margin: 0 auto;
+}
+#infoBar {
+  font-family: 'Press Start 2P', cursive;
+  width:600px;
+  margin: 0 auto;
+}
+#infoBar .highlight {
+  color: #000;
+  font-weight: 600;
+}
+#infoBar #timerInfo {
+  float:left;
+  width:50%;
+}
+#infoBar #scoreInfo {
+  float:left;
+  text-align:right;
+  width:50%;
+}
