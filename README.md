@@ -1,6 +1,12 @@
 HACKER SCHOOL GATHERER 
 ===========
 
+Setup
+-------------
+Clone the repo and open the index.html file on a browser.
+That's it!
+Get ready to play
+
 Game Play Instructions
 -------------
 Use the arrow keys to move the hacker school mascot around.
