@@ -146,21 +146,12 @@ function update() {
 
 // render the blocks according to their positions
 function render() {
-  var len = blocks.length;
   var i = null;
   clearCanvas();
   hero.render();
-
-  while(len--) {
-    i = len;
-    var block = blocks[i];
-    if (block.isOffScreen()) {
-      blocks.splice(i, 1);
-      i--;
-    }
-    else {
-      blocks[len].render();
-    }
+  
+  for(var i=0, len=blocks.length; i<len; i++) {
+    blocks[i].render();
   }
 };
 
